@@ -36,6 +36,9 @@ def opcao_invalida():
     voltar_ao_menu_principal()
 
 def cadastrar_restaurante():
+    """Isso é uma docstring responsável por documentar o que a função realiza.
+    Essa função é responsável por cadastrar novos restaurantes
+    """
     exibir_subtitulo('Cadastro de novo restaurante')
     nome = input('Digite nome do restaurante: ')
     categoria = input(f'Digite a categoria do restaurante {nome}: ')
